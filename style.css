@@ -1,0 +1,85 @@
+html{
+    margin:0 0;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+header, footer{
+    /* tu wleci gradient na tekst moze i jakis google font ładny*/
+    padding: 2rem;
+    text-align: center;
+}
+header{
+    margin-bottom: 2rem;
+}
+footer{
+    margin-top: 2rem;
+}
+.wrapper{
+    margin:0 auto;
+    width:70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#AIchoice{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20rem;
+    margin: 2rem 0;
+}
+.AIpicture{
+    background-color: #AAA;
+    border-radius: 1rem;
+    padding: 1rem;
+
+}
+#historyBoard{
+    border: 3px solid black;
+    padding: 2rem;
+    margin: 1rem 0;
+    width: 30%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.rowInBoard{
+    width: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.boardField{
+    padding: 1rem;
+    border-radius: 2rem;
+    background-color: #AAA;
+}
+#userChoice{
+    border: 3px solid black;
+    padding: 2rem;
+    margin: 1rem 0;
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    font-size: 20px;
+    width: 10rem;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+
+}
+.userSelector{
+    padding:0;
+    width: 2rem;
+    height: 2rem;
+    border:none;
+    border-radius: 2rem;
+    background-color: #AAA;
+}
+.userSelector:hover{
+    background-color: #AAA;
+}
